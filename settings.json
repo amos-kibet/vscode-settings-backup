@@ -1,0 +1,84 @@
+{
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.tabSize": 2,
+  "prettier.requireConfig": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "addMissingImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.options": {
+    "rules": {}
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript"],
+  "html.format.enable": false,
+  "htmlhint.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "workbench.colorTheme": "Monokai Vibrant",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "vscode-icons",
+  "rainbowTags.allowEverywhere": true,
+  "emmet.triggerExpansionOnTab": true,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "scm.inputFontSize": 12,
+  "debug.console.fontSize": 12,
+  "markdown.preview.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "editor.fontSize": 12,
+  "vsicons.dontShowNewVersionMessage": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "redhat.telemetry.enabled": true,
+  "git.autofetch": true,
+  "haskell.plugin.ghcide-completions.config.snippetsOn": false,
+  "haskell.manageHLS": "GHCup",
+  "editor.tokenColorCustomizations": {
+    "comments": "#B1bfd8"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "arduino.path": "/home/$user/Downloads/arduino-1.8.1",
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": true,
+    "go": true,
+    "typescript": true,
+    "ignore": false,
+    "jsonc": true,
+    "typescriptreact": true,
+    "json": true
+  },
+  "liveshare.featureSet": "stable",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "files.autosave": "afterDelay",
+  "editor.acceptSuggestionOnEnter": "off",
+  "eslint.quiet": true,
+  "git.confirmSync": false
+}
